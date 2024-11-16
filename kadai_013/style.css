@@ -60,10 +60,10 @@ PC用のスタイル
   }
 
   /* SP用ナビゲーション非表示 */
-  #menu-pc {
+  #menu-sp {
     display: none;
   }
-  #nav-pc {
+  #nav-sp {
     display: none;
   }
 
@@ -73,7 +73,7 @@ PC用のスタイル
   スマートフォン用のスタイル
   =====================*/
   @media screen and (max-width: 767px) {
-    }
+    
 
   body {
     min-width: 375px;
@@ -142,4 +142,5 @@ PC用のスタイル
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
     background-position: right top;
+  }
   }
